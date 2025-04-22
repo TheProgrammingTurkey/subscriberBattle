@@ -1,5 +1,5 @@
 async function getSubscribers() {
-    const apiKey = "AIzaSyC2R534bu6mG2Ic9vm0eMNk7ym73UQXTgQ"; // Replace with your API key
+    const apiKey = "AIzaSyC2R534bu6mG2Ic9vm0eMNk7ym73UQXTgQ";
     const gradeUpGuruChannelId = "UC4tc3mENwycOyU5USqMiJjg";
     const trigsawChannelId = "UCuQV_Ztp6omPz4Q-HYSOtKQ";
     let gradeUpGuruURL = `https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${gradeUpGuruChannelId}&key=${apiKey}`;
